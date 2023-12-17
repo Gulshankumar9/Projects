@@ -1,0 +1,5 @@
+name: "spring-boot-file-upload"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.example.uploadingfiles"
+- path: "templates"

@@ -1,0 +1,60 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "store",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/uploadingfiles/storage/FileSystemStorageService.java:37"
+                      }
+                    ],
+                    "name": "FileSystemStorageService",
+                    "type": "class"
+                  }
+                ],
+                "name": "storage",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "name": "handleFileUpload",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/example/uploadingfiles/FileUploadController.java:63"
+                  }
+                ],
+                "name": "FileUploadController",
+                "type": "class"
+              }
+            ],
+            "name": "uploadingfiles",
+            "type": "package"
+          }
+        ],
+        "name": "example",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "POST /"
+      }
+    ]
+  }
+]

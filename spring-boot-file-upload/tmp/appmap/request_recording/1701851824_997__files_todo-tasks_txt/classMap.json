@@ -1,0 +1,72 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "serveFile",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/example/uploadingfiles/FileUploadController.java:50"
+                  },
+                  {
+                    "name": "handleStorageFileNotFound",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/example/uploadingfiles/FileUploadController.java:72"
+                  }
+                ],
+                "name": "FileUploadController",
+                "type": "class"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "load",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/uploadingfiles/storage/FileSystemStorageService.java:73"
+                      },
+                      {
+                        "name": "loadAsResource",
+                        "type": "function",
+                        "static": false,
+                        "location": "com/example/uploadingfiles/storage/FileSystemStorageService.java:79"
+                      }
+                    ],
+                    "name": "FileSystemStorageService",
+                    "type": "class"
+                  }
+                ],
+                "name": "storage",
+                "type": "package"
+              }
+            ],
+            "name": "uploadingfiles",
+            "type": "package"
+          }
+        ],
+        "name": "example",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /files/{filename:.+}"
+      }
+    ]
+  }
+]
