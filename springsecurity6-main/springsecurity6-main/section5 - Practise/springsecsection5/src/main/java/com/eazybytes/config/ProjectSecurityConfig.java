@@ -7,20 +7,21 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
+import static org.springframework.security.config.Customizer.withDefaults;
+
 @Configuration
 public class ProjectSecurityConfig {
 
     @Bean
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
         //csrf protection is disabled now to do section 3.
-        http.csrf().disable()
-                .authorizeHttpRequests()
-                .requestMatchers("/myAccount", "/myBalance", "/myLoans", "/myCards").authenticated()
-                .requestMatchers("/notices", "/contact", "/register").permitAll()
-                .and().formLogin()
-                .and().httpBasic();
+        http.csrf(csrf -> csrf.disable()).authorizeRequests(authorize -> authorize
+                    .requestMatchers("/myAccount", "/myBalance", "/myLoans", "/myCards").authenticated()
+                    .requestMatchers("/notices", "/contact", "/register").permitAll()).formLogin(withDefaults())
+            .httpBasic(withDefaults());
         return http.build();
     }
+
     //returning obj of bcryptpasswordencoder.
     @Bean
     public PasswordEncoder passwordEncoder() {

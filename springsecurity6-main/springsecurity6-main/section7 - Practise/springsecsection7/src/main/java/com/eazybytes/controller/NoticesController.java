@@ -8,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.LocalDate;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -18,11 +17,11 @@ public class NoticesController {
     @Autowired
     private NoticeRepository noticeRepository;
 
-    @GetMapping ("/notices")
-    public ResponseEntity<List<Notice>> getNotices () {
-        List<Notice> notices = noticeRepository.findAllActiveNotices ();
+    @GetMapping("/notices")
+    public ResponseEntity<List<Notice>> getNotices() {
+        List<Notice> notices = noticeRepository.findAllNotices();
         if (notices != null) {
-            return ResponseEntity.ok ().cacheControl (CacheControl.maxAge (60, TimeUnit.SECONDS)).body (notices);
+            return ResponseEntity.ok().cacheControl(CacheControl.maxAge(60, TimeUnit.SECONDS)).body(notices);
         } else {
             return null;
         }

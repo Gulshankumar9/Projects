@@ -1,17 +1,19 @@
 package com.eazybytes.repository;
 
-import java.util.List;
-
+import com.eazybytes.model.Notice;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.eazybytes.model.Notice;
+import java.util.List;
 
 @Repository
 public interface NoticeRepository extends CrudRepository<Notice, Long> {
-	
-	@Query(value = "from Notice n where CURDATE() BETWEEN n.noticBegDt AND n.noticEndDt")
-	List<Notice> findAllActiveNotices();
+
+    @Query(value = "SELECT n FROM Notice n WHERE CURDATE() BETWEEN n.noticBegDt AND n.noticEndDt")
+    List<Notice> findAllActiveNotices();
+
+    @Query(value = "SELECT n FROM Notice n")
+    List<Notice> findAllNotices();
 
 }

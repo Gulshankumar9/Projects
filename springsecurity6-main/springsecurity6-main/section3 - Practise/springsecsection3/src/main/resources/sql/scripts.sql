@@ -13,9 +13,6 @@ CREATE TABLE `authorities` (
                                `authority` varchar(45) NOT NULL,
                                PRIMARY KEY (`id`));
 
-INSERT  INTO `users` VALUES (NULL, 'happy', '12345', '1');
-INSERT  INTO `authorities` VALUES (NULL, 'happy', 'write');
-
 CREATE TABLE `customer` (
                             `id` int NOT NULL AUTO_INCREMENT,
                             `email` varchar(45) NOT NULL,
@@ -23,6 +20,16 @@ CREATE TABLE `customer` (
                             `role` varchar(45) NOT NULL,
                             PRIMARY KEY (`id`)
 );
+
+#//create a seperate table called customer in s seperate db and use it for authentication
+
+
+
+
+
+
+INSERT  INTO `users` VALUES (NULL, 'happy', '12345', '1');
+INSERT  INTO `authorities` VALUES (NULL, 'happy', 'write');
 
 INSERT INTO `customer` (`email`, `pwd`, `role`)
 VALUES ('johndoe@example.com', '54321', 'admin');

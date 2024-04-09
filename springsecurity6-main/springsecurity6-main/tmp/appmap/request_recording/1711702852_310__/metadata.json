@@ -1,0 +1,23 @@
+{
+  "name": "GET / (404) - 14:30:52.310",
+  "app": "springsecurity6-main",
+  "language": {
+    "name": "java",
+    "version": "21.0.1+12-LTS-29",
+    "engine": "Java HotSpot(TM) 64-Bit Server VM"
+  },
+  "client": {
+    "name": "appmap-java",
+    "url": "https://github.com/appland/appmap-java"
+  },
+  "recorder": {
+    "name": "request_recording",
+    "type": "requests"
+  },
+  "recording": {},
+  "git": {
+    "repository": "https://github.com/Gulshankumar9/Springboot-Spring-Security.git",
+    "branch": "main",
+    "commit": "8e9e7077b187f35e4fb5546a465ed2d3f1d98618"
+  }
+}
