@@ -1,7 +1,0 @@
-[
-  {
-    "route": "GET /files/{filename:.+}",
-    "parameters": "()",
-    "status": 200
-  }
-]

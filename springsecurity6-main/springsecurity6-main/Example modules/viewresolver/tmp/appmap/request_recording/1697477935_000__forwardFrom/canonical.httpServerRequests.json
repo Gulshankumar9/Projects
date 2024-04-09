@@ -1,7 +1,0 @@
-[
-  {
-    "route": "GET /forwardTo",
-    "parameters": "()",
-    "status": 200
-  }
-]

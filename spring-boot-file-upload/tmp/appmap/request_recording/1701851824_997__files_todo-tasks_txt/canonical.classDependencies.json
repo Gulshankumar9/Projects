@@ -1,6 +1,0 @@
-[
-  {
-    "caller": "GET /files/{filename:.+}",
-    "callee": "com/example"
-  }
-]

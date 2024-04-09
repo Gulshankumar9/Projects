@@ -1,6 +1,0 @@
-[
-  {
-    "caller": "GET /Welcome",
-    "callee": "com/eazybytes"
-  }
-]
