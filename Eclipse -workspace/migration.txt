@@ -1,0 +1,14 @@
+for struts2-core 6.3.02 version 
+
+1.The import org.apache.struts2.interceptor.servletrequestaware is deprecated in Struts 6.x.x1. You should use ServletRequestAware.withServletRequest(HttpServletRequest) instead of setServletRequest(HttpServletRequest)
+use import : import org.apache.struts2.action.ServletRequestAware;
+
+
+2.Yes, the method setParameter(HttpParameters) is removed in Struts 6.x.x1. It was deprecated in Struts 2.5.x and replaced by withParameters(HttpParameters)
+
+
+3.According to the Struts documentation12, the ActionContext.CONVERSION_ERRORS field is not removed in the higher version, but it is private and should not be accessed directly. Instead, you should use the getConversionErrors() method to retrieve the conversion errors map from the context3. This method returns an empty map if there are no errors. You can also use the ConversionErrorInterceptor to add the conversion errors to the action’s field errors automatically
+
+
+
+4.According to the Struts documentation1, the getName() method is not removed in the higher version, but it is public and should be accessed from the ActionContext object. This method returns the name of the current action2. You can also use the ServletActionContext.getActionMapping().getName()

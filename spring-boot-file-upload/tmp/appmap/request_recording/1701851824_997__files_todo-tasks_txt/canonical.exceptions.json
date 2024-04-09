@@ -1,0 +1,21 @@
+[
+  {
+    "class": "com.example.uploadingfiles.storage.StorageFileNotFoundException",
+    "message": "Could not read file: todo-tasks.txt",
+    "stack": [
+      "FileSystemStorageService.java:85",
+      "com/example/uploadingfiles/FileUploadController.java:50"
+    ],
+    "location": "FileSystemStorageService.java:85"
+  },
+  {
+    "class": "com.example.uploadingfiles.storage.StorageFileNotFoundException",
+    "message": "Could not read file: todo-tasks.txt",
+    "stack": [
+      "FileSystemStorageService.java:85",
+      "com/example/uploadingfiles/storage/FileSystemStorageService.java:79",
+      "com/example/uploadingfiles/FileUploadController.java:50"
+    ],
+    "location": "FileSystemStorageService.java:85"
+  }
+]
