@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Example modules/Journal/Journal.iml" filepath="$PROJECT_DIR$/Example modules/Journal/Journal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/springsecsection2/springsecsection2.iml" filepath="$PROJECT_DIR$/section2/springsecsection2/springsecsection2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3 - Practise/springsecsection3/springsecsection3.iml" filepath="$PROJECT_DIR$/section3 - Practise/springsecsection3/springsecsection3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4 - Practise/springsecsection4/springsecsection4.iml" filepath="$PROJECT_DIR$/section4 - Practise/springsecsection4/springsecsection4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5 - Practise/springsecsection5/springsecsection5.iml" filepath="$PROJECT_DIR$/section5 - Practise/springsecsection5/springsecsection5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section6 - Practise/springsecsection6/springsecsection6.iml" filepath="$PROJECT_DIR$/section6 - Practise/springsecsection6/springsecsection6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section7 - Practise/springsecsection7/springsecsection7.iml" filepath="$PROJECT_DIR$/section7 - Practise/springsecsection7/springsecsection7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springsecurity6-main.iml" filepath="$PROJECT_DIR$/.idea/springsecurity6-main.iml" />
+    </modules>
+  </component>
+</project>

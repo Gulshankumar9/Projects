@@ -1,0 +1,4 @@
+name: "springsecurity6-main"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.eazybytes.springsecuritybasic"

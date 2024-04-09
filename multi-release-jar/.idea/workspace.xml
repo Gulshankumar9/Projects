@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1de42935-c187-4a43-9869-90e18d7b458b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/RouterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/customapi/CustomPathItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/customapi/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/customizer/OpenApiCustomizerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/greetings/Greetings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/greetings/GreetingsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/greetings/GreetingsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/jpaExample/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springdoc-openapi/src/main/java/com/springdocopenapi/student/ApiMetaDataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/Configurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/DocBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/FetchData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/model/ApiGroupModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/model/ApiModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/model/AttributeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/model/RequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/model/ResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiAttriDefn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiAttriDefnId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiDefn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiDefnId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiGrpDefn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiGrpDefnId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiRqDefn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiRqDefnId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiRsDefn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriApiRsDefnId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriDocDefn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/persistance/BoaUriDocDefnId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/repository/BoaUriApiAttriDefnRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/repository/BoaUriApiDefnRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/repository/BoaUriApiGrpDefnRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/repository/BoaUriApiRqDefnRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/repository/BoaUriApiRsDefnRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/java/com/example/swaggercustomui/repository/BoaUriDocDefnRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/resources/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swagger-custom-ui/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/Configurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/DocBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/DocBuilderRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/InlineSchemaFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models/Bpmclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models/StudentsId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models/TeacherID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models2/ApiGroupModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models2/ApiModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models2/AttributeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models2/RequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/java/com/example/customswaggerui/models2/ResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-swagger-ui/src/main/resources/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/ISS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/ISS_location_20210311145624.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/ISS_location_20210311150241.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/ISS_location_20210318155202.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/Untitled.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/Untitled.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/download (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/download (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/flask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/satsig_explanation.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/untitled0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../International space station tracker/world-map-backround.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Machine learning project/run this in spyder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Machine learning project/smp_data_from_app.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Machine learning project/student_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Machine learning project/student_mark_predictor.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Machine learning project/students_mark_predictor.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/1.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/2.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/3.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/4.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/5.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/6.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/7.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/8.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/Colorful Dinosaur Motivational Education Portrait Poster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/CustomList_lyst7706.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/DelhiListActivity_lyst9513.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/Detail_lyst8868.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/DetailsActivity_lyst3019.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/Hoteligo application" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/MainActivity_lyst6389.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/abc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/app-test1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/app-test2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/app-test3.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/def.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/ghi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/jkl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/mno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/pqr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile application development project/stu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/property-management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/PropertyManagementApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/controller/PropertyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/converter/PropertyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/dto/propertydto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/entity/PropertyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/repository/PropertyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/service/PropertyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/java/com/mycompany/propertymanagement/service/impl/PropertyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/src/test/java/com/mycompany/propertymanagement/PropertyManagementApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/PropertyManagementApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/controller/PropertyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/converter/PropertyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/dto/propertydto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/entity/PropertyEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/repository/PropertyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/service/PropertyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/classes/com/mycompany/propertymanagement/service/impl/PropertyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/property-management-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/property-management-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/surefire-reports/TEST-com.mycompany.propertymanagement.PropertyManagementApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/surefire-reports/com.mycompany.propertymanagement.PropertyManagementApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../property-management/target/test-classes/com/mycompany/propertymanagement/PropertyManagementApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.devcontainer/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.devcontainer/devcontainer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.springjavaformatconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/checkstyle/nohttp-checkstyle-suppressions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/checkstyle/nohttp-checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/CrashController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Specialty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/application-mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/application-postgres.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/h2/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/h2/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/hsqldb/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/hsqldb/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/mysql/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/mysql/petclinic_db_setup_mysql.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/mysql/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/mysql/user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/postgres/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/postgres/petclinic_db_setup_postgres.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/db/postgres/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/messages/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/messages/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/messages/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/messages/messages_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/css/petclinic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/montserrat-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/montserrat-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/montserrat-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/montserrat-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/varela_round-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/varela_round-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/varela_round-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/fonts/varela_round-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/images/pets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/images/platform-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/images/spring-logo-dataflow-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/images/spring-logo-dataflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/static/resources/images/spring-pivotal-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/fragments/inputField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/fragments/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/fragments/selectField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/owners/createOrUpdateOwnerForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/owners/findOwners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/owners/ownerDetails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/owners/ownersList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/pets/createOrUpdatePetForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/pets/createOrUpdateVisitForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/vets/vetList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/resources/templates/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/scss/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/scss/petclinic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/scss/responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/main/scss/typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/PetClinicIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/src/test/jmeter/petclinic_test_plan.jmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/application-mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/application-postgres.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/h2/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/h2/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/hsqldb/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/hsqldb/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/mysql/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/mysql/petclinic_db_setup_mysql.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/mysql/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/mysql/user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/postgres/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/postgres/petclinic_db_setup_postgres.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/db/postgres/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/git.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/messages/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/messages/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/messages/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/messages/messages_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/PetClinicApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/PetClinicRuntimeHints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/model/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/model/NamedEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/model/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/Owner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/OwnerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/OwnerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/PetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/PetType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/PetTypeFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/PetValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/Visit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/owner/VisitController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/system/CacheConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/system/CrashController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/system/WelcomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/vet/Specialty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/vet/Vet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/vet/VetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/vet/VetRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/org/springframework/samples/petclinic/vet/Vets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/css/petclinic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/montserrat-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/montserrat-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/montserrat-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/montserrat-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/varela_round-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/varela_round-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/varela_round-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/fonts/varela_round-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/images/pets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/images/platform-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/images/spring-logo-dataflow-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/images/spring-logo-dataflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/static/resources/images/spring-pivotal-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/fragments/inputField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/fragments/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/fragments/selectField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/owners/createOrUpdateOwnerForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/owners/findOwners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/owners/ownerDetails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/owners/ownersList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/pets/createOrUpdatePetForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/pets/createOrUpdateVisitForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/vets/vetList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/classes/templates/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/PetClinicIntegrationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/model/ValidatorTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/owner/OwnerControllerTests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/owner/OwnerControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/owner/PetControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/owner/PetTypeFormatterTests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/owner/PetTypeFormatterTests$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/owner/VisitControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/ClinicServiceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/EntityUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/system/CrashControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/vet/VetControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic/target/test-classes/org/springframework/samples/petclinic/vet/VetTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/src/main/java/com/practise/thymleafproject/ThymleafProjectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf-project/src/test/java/com/practise/thymleafproject/ThymleafProjectApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="f4a1nbqo" />
+  </component>
+  <component name="ProjectId" id="2ZXHYwzXDWRouw5G1jeft7BUgxU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Gulshan/Desktop/projects/work/multi-release-jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4221422",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gulshan\Desktop\work\multi-release-jar\src\main\java17\org.example" />
+      <recent name="C:\Users\Gulshan\Desktop\work\multi-release-jar\src\main\java17" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gulshan\Desktop\work\multi-release-jar\src\main\java\org\example\java17" />
+      <recent name="C:\Users\Gulshan\Desktop\work\multi-release-jar\src\main\java\org\example" />
+      <recent name="C:\Users\Gulshan\Desktop\work\multi-release-jar\src\main\java" />
+      <recent name="C:\Users\Gulshan\Desktop\work\multi-release-jar\src\main\java17\org" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1de42935-c187-4a43-9869-90e18d7b458b" name="Changes" comment="" />
+      <created>1702561554889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702561554889</updated>
+      <workItem from="1702561555933" duration="2379000" />
+      <workItem from="1702576273756" duration="1023000" />
+      <workItem from="1702577341558" duration="2149000" />
+      <workItem from="1702581919230" duration="554000" />
+      <workItem from="1710860204409" duration="239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
